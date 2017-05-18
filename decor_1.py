@@ -1,9 +1,9 @@
 # coding=utf-8
-def shout(word="да"):
+def shout(word="yes"):
     return word.capitalize() + "!"
 
 
-print shout()
+print shout("нет")
 # выведет: 'Да!'
 
 # Так как функция - это объект, вы связать её с переменнной,
