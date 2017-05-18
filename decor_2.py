@@ -19,3 +19,4 @@ try:
 except NameError, e:
     print e
     # выведет : "name 'whisper' is not defined"
+    
