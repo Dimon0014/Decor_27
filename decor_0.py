@@ -20,8 +20,8 @@ def getTalk(type="whisper"):
 # Возьмём функцию и свяжем её с переменной
 print getTalk("whisper")()
 talk = getTalk
-
 # Как мы можем видеть, "talk" теперь - объект "function":
+
 print talk
 # выведет: <function shout at 0xb7ea817c>
 

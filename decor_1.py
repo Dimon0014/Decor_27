@@ -22,7 +22,7 @@ print scream()
 
 del shout
 try:
-    print shout()
+    print whisper()
 except NameError, e:
     print e
     # выведет: "name 'shout' is not defined"
