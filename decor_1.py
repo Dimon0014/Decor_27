@@ -25,7 +25,7 @@ try:
     print whisper()
 except NameError, e:
     print e
-    # выведет: "name 'shout' is not defined"
+    # выведет: "name 'whisper' is not defined"
 
 print scream()
 
